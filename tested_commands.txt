@@ -1,0 +1,12 @@
+User.all
+Artwork.first
+Artwork.find(3)
+Artwork.find_by(title: "The Starry Night")
+User.first.artworks
+Artwork.find(3).artist
+User.find(2).shared_artworks
+Artwork.last.shared_viewers
+User.create!(username: 'Hari')
+Artwork.create!(title: 'Mona Lisa', image_url: 'https://en.wikipedia.org/wiki/Mona_Lisa', artist_id: 1) FAILED
+Artwork.create!(title: 'Mona Lisa', image_url: 'https://en.wikipedia.org/wiki/Mona_Lis', artist_id: 1) FAILED 
+Artwork.create!(title: 'Mona Lisa', image_url: 'https://en.wikipedia.org/wiki/Mona_Lisa_v2', artist_id: 2)
